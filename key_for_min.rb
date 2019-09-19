@@ -13,8 +13,9 @@ def key_for_min_value(name_hash)
       value = lowest_value
       lowest_key = key
 end
-return lowest_key
 end
+return lowest_key
+
 end
 
 #What could we use to compare each value to?
