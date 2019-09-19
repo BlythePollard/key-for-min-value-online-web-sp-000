@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
     if value < lowest_value #if value on this iteration is less than last lowest value
       value = lowest_value #make that lowest value the new lowest value
 end
-return lowest_value
+return lowest_key
 end
 end
 
